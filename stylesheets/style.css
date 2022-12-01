@@ -78,8 +78,27 @@
 
 
 @media only screen and (min-width: 548px) {
+  .card {
+    /* Shape and Content*/
+    max-width: 600px;
+    display: flex;
+  }
+
+  .card > div {
+    /* Flex items */
+    width: calc(100% / 2);
+  }
+
   .card-image {
     /* Background Image: Desktop */
     background-image: url("../images/image-product-desktop.jpg");
+  }
+
+  .card-content {
+    padding: 2rem; 
+  }
+
+  .card-cta-btn {
+    padding: .7rem;
   }
 }
