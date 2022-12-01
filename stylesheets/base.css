@@ -1,0 +1,37 @@
+/* FONTS */
+/* Montserrat: 500, 700 | Fraunces: 700 */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+:root {
+  /* COLORS */
+  /* Primary */
+  --clr-dark-cyan: hsl(158, 36%, 37%);
+  --clr-cream: hsl(30, 38%, 92%);
+
+  /* Neutral */
+  --clr-dark-blue: hsl(212, 21%, 14%);
+  --clr-grey-blue: hsl(228, 12%, 48%);
+  --clr-white: hsl(0, 0%, 100%);
+
+  /* FONT */
+  /* Font Familty */
+  --ff-primary: 'Montserrat', sans-serif;
+  --ff-secondary: 'Fraunces', serif;
+
+  /* Font Size */
+  --fs-default: 14px; 
+
+}
+
+body {
+  /* Default */
+  min-height: 100vh;
+  line-height: 1.5;
+
+  /* Font */
+  font-family: var(--ff-primary);
+  
+  /* Background */
+  background-color: var(--clr-cream);
+}
+

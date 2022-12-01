@@ -1,0 +1,21 @@
+/* FONTS */
+.ff-primary {
+  font-family: var(--ff-primary);
+}
+
+.ff-secondary {
+  font-family: var(--ff-secondary);
+}
+
+.fs-1 {
+  font-size: 20px;
+}
+
+/* FLEX */
+.flex {
+  display: flex;
+}
+
+.col-reverse {
+  flex-direction: column-reverse;
+}
