@@ -24,6 +24,14 @@
   flex-direction: column-reverse;
 }
 
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 /* Aesthetic */
 .flow > * + * {
   margin-top: 1.5em;
