@@ -1,0 +1,35 @@
+.card {
+  /* Position */
+  margin: 0 auto;
+
+  /* Shape and Content*/
+  max-width: 400px;
+  border-radius: 1em;
+  overflow: hidden;
+
+  /* Background */
+  background-color: var(--clr-white);
+}
+
+.card-image {
+  width: 100%;
+  aspect-ratio: 2 / 1.4;
+
+  /* Background Image: Mobile */
+  background-image: url("../images/image-product-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.card-content {
+  padding: 1.2rem 1.7rem; 
+}
+
+
+@media only screen and (min-width: 548px) {
+  .card-image {
+    /* Background Image: Desktop */
+    background-image: url("../images/image-product-desktop.jpg");
+  }
+}
