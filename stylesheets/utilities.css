@@ -8,7 +8,11 @@
 }
 
 .fs-1 {
-  font-size: 20px;
+  font-size: 35px;
+}
+
+.text-dark {
+  color: var(--clr-dark-blue);
 }
 
 /* FLEX */
@@ -18,4 +22,9 @@
 
 .col-reverse {
   flex-direction: column-reverse;
+}
+
+/* Aesthetic */
+.flow > * + * {
+  margin-top: 1.5em;
 }

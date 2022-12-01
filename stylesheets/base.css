@@ -30,6 +30,10 @@ body {
 
   /* Font */
   font-family: var(--ff-primary);
+  font-size: var(--fs-default);
+  font-weight: 500;
+
+  color: var(--clr-grey-blue);
   
   /* Background */
   background-color: var(--clr-cream);
