@@ -9,6 +9,9 @@
 
   /* Background */
   background-color: var(--clr-white);
+
+  /* Box Shadow */
+  box-shadow: 2px 2px 8px var(--clr-grey-blue-alpha);
 }
 
 .card-image {

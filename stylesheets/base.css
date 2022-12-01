@@ -10,7 +10,8 @@
 
   /* Neutral */
   --clr-dark-blue: hsl(212, 21%, 14%);
-  --clr-grey-blue: hsl(228, 12%, 48%);
+  --clr-grey-blue: hsl(228 12% 48%);
+  --clr-grey-blue-alpha: hsl(228 12% 48% / .5);
   --clr-white: hsl(0, 0%, 100%);
 
   /* FONT */
